@@ -1,0 +1,106 @@
+/* Set the background gradient and add some padding */
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient background */
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Use a modern font */
+}
+
+/* Center the entire app and add some padding */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Flexbox container for the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style for the heading */
+.heading {
+  text-align: center;
+  color: #ffffff; /* White color for the text */
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Make the logos circular */
+  border: solid 2px #ffffff; /* White border */
+}
+
+/* Style for the subheading */
+.sub {
+  font-size: 18px; /* Adjust the font size */
+  color: #ffeb3b; /* Yellow color */
+  margin-bottom: 30px;
+}
+
+/* Container for the form */
+.form-container {
+  text-align: center;
+  background-color: #ffffff; /* White background for the form */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Style for labels */
+label {
+  font-size: 16px;
+  color: #333333;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Style for inputs and select elements */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Style for the button */
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background-color: #ff4081; /* Pink background */
+  color: white; /* White text */
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+  background-color: #e91e63; /* Slightly darker pink */
+}
+
+/* Style for the result and advice sections */
+#result, #advice {
+  font-size: 20px;
+  color: #333333; /* Dark color for the result text */
+  margin-top: 20px;
+  background: #f0f0f0; /* Light background */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
